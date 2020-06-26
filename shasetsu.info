@@ -1,0 +1,14 @@
+type = theme
+name = Shasetsu
+description = A magazine-like sub-theme of the default Backdrop theme Basis.
+backdrop = 1.x
+base theme = basis
+screenshot = screenshot.png
+
+settings[color] = false
+
+; Add theme CSS files
+stylesheets[all][] = css/skin-shasetsu.css
+
+; Add theme JS files
+scripts[] = js/script.js
