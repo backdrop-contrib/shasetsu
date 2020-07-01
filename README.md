@@ -21,7 +21,7 @@ Usage
 -----
 
 Shasetsu works in all Backdrop core layout templates. It was however built
-with the default layouts in mind, using the following example configuration:
+with the default layouts in mind, using a particular configuration:
 
 **Home page Layout (Template: Boxton)**
 
@@ -40,6 +40,8 @@ with the default layouts in mind, using the following example configuration:
 
 **Default Layout (Template: Moscone Flipped)**
 
+Note the Primary navigation in the sidebar.
+
 - Header region:
   - Header block (Account menu, Logo, Site name, Site slogan)
 - Top region: No block
@@ -49,7 +51,8 @@ with the default layouts in mind, using the following example configuration:
   - Main page content
 - Sidebar region:
   - Search form (Hide label and button)
-  - Several blocks of existing content (e.g. Contact details)
+  - Primary navigation (Hierarchical tree, Disable menu toggle button)
+  - Several custom blocks or blocks of existing content (e.g. Contact details)
 - Bottom: No block
 - Footer: Powered by Backdrop
 

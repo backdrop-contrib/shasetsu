@@ -21,9 +21,6 @@
 
 /*  == Layout ================================= */
 @media (min-width: 48em) {
-  .layout--moscone-flipped .l-wrapper {
-    background: repeating-linear-gradient( to right, #fff, #fff 66%, #f5f5f5 66%, #f5f5f5 100% );
-  }
   .layout--moscone-flipped .l-sidebar.col-md-3,
   .layout--moscone .l-sidebar.col-md-3 {
     -webkit-box-flex: 0;
