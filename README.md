@@ -25,6 +25,8 @@ with the default layouts in mind, using a particular configuration:
 
 **Home page Layout (Template: Boxton)**
 
+Primary navigation (Dropdown) in the Header
+
 - Header region:
   - Header block (Account menu, Logo, Site name, Site slogan)
     Add your logo on *Administration > Configuration > System > Logo settings*.
@@ -40,7 +42,7 @@ with the default layouts in mind, using a particular configuration:
 
 **Default Layout (Template: Moscone Flipped)**
 
-Note the Primary navigation in the sidebar.
+Primary navigation (Hierarchical tree) in the Sidebar
 
 - Header region:
   - Header block (Account menu, Logo, Site name, Site slogan)
@@ -59,15 +61,6 @@ Note the Primary navigation in the sidebar.
 As an alternative for the Default Layout, drag the Header block from the
 Header region to the top of the Sidebar region, above the Search form.
 (Best results with short Site name and slogan, or no Site slogan at all.)
-
-Known issues and project status
--------------------------------
-
-So far, Shasetsu doesn't have its own color settings. The theme displays the
-color sets of Basis instead, which is misleading, at least for the default set.
-
-Apart from that, Shasetsu should work reasonably but isn't yet ready for an
-official release. Testing and feedback are most welcome!
 
 Overriding CSS and sub-theming
 ------------------------------
@@ -91,10 +84,20 @@ The CSS Injector module allows you to add CSS to Backdrop based on configurable
 rules. It's useful for adding simple CSS tweaks without modifying the theme.
 - https://backdropcms.org/project/css_injector
 
+Project status
+--------------
+
+Due to a [Backdrop core issue](https://github.com/backdrop/backdrop-issues/issues/4463),
+Shasetsu doesn't have its own color settings. The theme displays the color sets
+of Basis instead, which is misleading, especially for the default set.
+
+Apart from that, Shasetsu should work reasonably, but it could need more
+testing. Your feedback is most welcome!
+
 Issues
 ------
 
-Bugs and Feature requests should be reported in the Issue Queue:
+Please report bugs, feature requests and other feedback in the Issue queue:
 https://github.com/backdrop-contrib/shasetsu/issues
 
 Current Maintainers
