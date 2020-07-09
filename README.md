@@ -88,8 +88,8 @@ Project status
 --------------
 
 Due to a [Backdrop core issue](https://github.com/backdrop/backdrop-issues/issues/4463),
-Shasetsu doesn't have its own color settings. The theme displays the color sets
-of Basis instead, which is misleading, especially for the default set.
+Shasetsu doesn't have its own color settings. To avoid confusion, for the time
+being the misleading display of Basis' color sets has be removed.
 
 Apart from that, Shasetsu should work reasonably, but it could need more
 testing. Your feedback is most welcome!
