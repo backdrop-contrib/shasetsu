@@ -32,11 +32,13 @@ Primary navigation (Dropdown) in the Header
     Add your logo on *Administration > Configuration > System > Logo settings*.
   - Primary navigation (Dropdown menu, Maximum depth unlimited)
 - Page title: No title
-- Top region: No block
+- Top region:
+  - Page messages
 - Content region:
   - Hero block
-  - Promoted content (for best results promote at least two posts, and upload
-    to each post an image via the image field)
+  - 3 promoted Cards (available as of Backdrop 1.22.0)
+  - Promoted content (for best results promote at least two posts, and upload an
+    image to each post via the image field)
 - Bottom: No block
 - Footer: Powered by Backdrop
 
