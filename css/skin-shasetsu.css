@@ -482,6 +482,24 @@ figcaption {
   font-weight: bold;
 }
 
+/* == Cards grid ============================== */
+.block-views-promoted-cards-block {
+  background-color: #f5f5f5;
+}
+.block-views-promoted-cards-block .views-field-body a {
+  color: #d50000;
+}
+.block-views-promoted-cards-block .views-field-body a:hover {
+  text-decoration: underline;
+}
+.l-content .block-views-promoted-cards-block {
+  background-color: transparent;
+}
+.l-content .block-views-promoted-cards-block .view-promoted-cards {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 /* == Sidebar ================================= */
 
 /* Sidebar Toggle */
@@ -714,7 +732,6 @@ p.submitted {
     margin: 0.375rem 0 1.5rem 1.5rem;
   }
 }
-
 
 /* == Footer ================================== */
 .l-footer {
